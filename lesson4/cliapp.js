@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs/promises');
 const {lstatSync} = require('fs');
 const inquirer = require('inquirer');
