@@ -2,9 +2,12 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "helloworld.js",
+  "main": "cliapp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reader": "cliapp.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/rodionD-stack/NodeGB#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0",
+    "yargs": "^17.2.1"
   }
 }
